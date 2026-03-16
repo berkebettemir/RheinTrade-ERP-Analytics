@@ -4,7 +4,7 @@ This document provides a detailed breakdown of the business insights, deep-dive 
 <a name="analysis-1"></a>
 ## 📊 Analysis 1: Hierarchical Net Profitability Analysis
 
-    ❓ Business Question: "What is the true financial performance of each product line across our 3-tier category hierarchy, ensuring all revenue and profit figures are net of product returns and specific refunds?"
+> ❓ **Business Question:** "What is the true financial performance of each product line across our 3-tier category hierarchy, ensuring all revenue and profit figures are net of product returns and specific refunds?"
 
 ### 💡 Business Insight
 
@@ -19,7 +19,7 @@ This document provides a detailed breakdown of the business insights, deep-dive 
 <a name="analysis-2"></a>
 ## 📊 Analysis 2: Year-over-Year (YoY) Revenue Growth Trends
 
-    ❓ Business Question: "What are the historical revenue trends for our main business units, and which categories demonstrate the most consistent growth or volatility over time?"
+> ❓ Business Question: "What are the historical revenue trends for our main business units, and which categories demonstrate the most consistent growth or volatility over time?"
 
 ### 💡 Business Insight
 
@@ -34,7 +34,7 @@ This document provides a detailed breakdown of the business insights, deep-dive 
 <a name="analysis-3"></a>
 ## 📊 Analysis 3: Top Whale Customers (Strategic Segment & Tenure Analysis)
 
-    ❓ Business Question: "Who are our top 30 most valuable customers by True Net Revenue (LTV), and how do their loyalty segments and tenure in the system correlate with their total financial contribution?"
+> ❓ **Business Question:** "Who are our top 30 most valuable customers by True Net Revenue (LTV), and how do their loyalty segments and tenure in the system correlate with their total financial contribution?"
 
 ### 💡 Business Insight
 
@@ -49,7 +49,7 @@ This document provides a detailed breakdown of the business insights, deep-dive 
 <a name="analysis-4"></a>
 ## 📊 Analysis 4: Employee Efficiency & Territorial Performance
 
-    ❓ Business Question: "Which sales representatives are the most efficient based on their average annual profit contribution, and how do their seniority and primary operational territories impact their performance?"
+> ❓ **Business Question:** "Which sales representatives are the most efficient based on their average annual profit contribution, and how do their seniority and primary operational territories impact their performance?"
 
 ### 💡 Business Insight
 
@@ -66,7 +66,7 @@ This document provides a detailed breakdown of the business insights, deep-dive 
 <a name="analysis-5"></a>
 ## 📊 Analysis 5: Supplier Reliability & Profitability Matrix
 
-    ❓ Business Question: "Which suppliers generate the most reliable net profit, and does our 'Preferred Supplier' classification accurately reflect product quality (return rates) and financial contribution?"
+> ❓ **Business Question:** "Which suppliers generate the most reliable net profit, and does our 'Preferred Supplier' classification accurately reflect product quality (return rates) and financial contribution?"
 
 ### 💡 Business Insight
 
@@ -81,7 +81,7 @@ This document provides a detailed breakdown of the business insights, deep-dive 
 <a name="analysis-6"></a>
 ## 📊 Analysis 6: Market Basket Analysis (Cross-Selling Opportunities)
 
-    ❓ Business Question: "Which product combinations are most frequently purchased together in the same order, and what cross-selling opportunities exist between different product categories?"
+> ❓ **Business Question:** "Which product combinations are most frequently purchased together in the same order, and what cross-selling opportunities exist between different product categories?"
 
 ### 💡 Business Insight
 
@@ -96,7 +96,7 @@ This document provides a detailed breakdown of the business insights, deep-dive 
 <a name="analysis-7"></a>
 ## 📊 Analysis 7: Customer Cohort Analysis (Yearly Retention Matrix)
 
-    ❓ Business Question: "How effectively are we retaining our newly acquired customers over time, and what is the long-term purchasing behavior of our foundational accounts?"
+> ❓ **Business Question:** "How effectively are we retaining our newly acquired customers over time, and what is the long-term purchasing behavior of our foundational accounts?"
 
 ### 💡 Business Insight
 
@@ -111,7 +111,7 @@ This document provides a detailed breakdown of the business insights, deep-dive 
 <a name="analysis-8"></a>
 ## 📊 Analysis 8: Discount Impact & Margin Cannibalization
 
-    ❓ Business Question: "How do our discounting strategies impact overall profitability across core product categories? Are we driving sufficient sales volume to justify the margin reduction, or are our discounts cannibalizing our profits?"
+> ❓ **Business Question:** "How do our discounting strategies impact overall profitability across core product categories? Are we driving sufficient sales volume to justify the margin reduction, or are our discounts cannibalizing our profits?"
 
 ### 💡 Business Insight
 
