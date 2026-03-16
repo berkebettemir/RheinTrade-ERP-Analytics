@@ -23,6 +23,9 @@ The foundation of this project is a robust custom database (`RheinTradeSolutions
 * **Strict State Machine Integrity:** Enforced via Foreign Keys, Check Constraints, and transition triggers (`TRG_Orders_StatusTransitionRules`) to prohibit illogical business flows (e.g., reverting a 'Delivered' order back to 'Pending', or accepting a product return before its official delivery date).
 * **Automated Data Governance & Quality Auditing:** Implements comprehensive Stored Procedures (e.g., `SP_Audit_Full_System_Quality`) as an active monitoring layer. This system continuously scans for and logs business anomalies into a dedicated `DataQualityIssues` table—detecting complex issues like fuzzy-duplicate B2B customers, negative inventory states, and logical timeline errors (e.g., items delivered before being ordered).
 
+## 🏗️ Database Architecture & Design
+![ERP Database Schema](images/ERP_Database_Schema.png)
+*The system is built on a relational architecture featuring 19 interrelated tables, ensuring high data integrity and complex event tracking.*
 ---
 
 ## 📊 Analytical Deep Dives & Business Insights
