@@ -38,7 +38,7 @@ The foundation of this project is a robust custom database (`RheinTradeSolutions
 | **Energy & Climate** | 15,605 | 1.464.772 € | 585.907 € | **40.00%** |
 | **Smart Lighting** | 14,059 | 669.221 € | 327.257 € | **48.90%** |
 
-* 📁 [View SQL Query](scripts/Analysis_1_Net_Profit_Distribution.sql) | | 🧠 [Read Deep-Dive Methodology](docs/Comprehensive_Analysis.md#analysis-1)
+* 📁 [View SQL Query](scripts/Analysis_1_Net_Profit_Distribution.sql) | 🧠 [Read Deep-Dive Methodology](docs/Comprehensive_Analysis.md#analysis-1)
 
 * ![Analysis 1 - Net Profit Distribution](images/1-NetProfitDistributionByProductHierarchy.png)
 
