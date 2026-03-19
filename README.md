@@ -155,7 +155,7 @@ The foundation of this project is a robust custom database (`RheinTradeSolutions
 ## 🚀 How to Use This Repository
 1. Clone the repository to your local machine.
 2. The `Database_Creation/` folder contains the `RheinTradeSolutions.sql` script to instantly generate the entire database architecture, mock data, and triggers in SQL Server.
-3. The `Analytical_Queries/` folder contains all the documented SQL scripts categorized by business domain (e.g., Sales, HR, Logistics, Procurement).
+3. The `scripts/` folder contains all the documented SQL scripts categorized by business domain (e.g., Sales, HR, Logistics, Procurement).
 4. 📑 For a detailed breakdown of the business insights, strategic actionable recommendations, and the "story behind the numbers" for each analytical query, please refer to the [Comprehensive Business Insights Report](docs/Comprehensive_Analysis.md).
 ---
 *Developed as a comprehensive showcase of Advanced SQL, Data Engineering, and Business Intelligence capabilities.*
