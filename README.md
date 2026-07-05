@@ -7,21 +7,21 @@
 ## 📌 Executive Summary
 **RheinTrade Solutions** is a highly sophisticated, simulated B2B/B2C smart home and IoT infrastructure distributor. This project serves as a comprehensive **Data Engineering and Business Intelligence** portfolio piece. 
 
-Unlike standard static datasets, this repository features a fully functional **Mini-ERP relational database** with strict data integrity, historical tracking, and event-driven automated business logic. The analytical queries leverage advanced SQL concepts to solve complex, real-world business problems such as margin cannibalization, cross-selling opportunities, and long-term cohort retention.
+Unlike standard static datasets, this repository features a fully functional **Mini-ERP relational database** with strict data integrity, historical tracking, and event-driven automated business logic. The analytical queries use advanced SQL concepts to solve complex, real-world business problems such as margin cannibalization, cross-selling opportunities, and long-term cohort retention.
 
 ---
 
 ## ⚙️ Database Architecture & Key Technical Implementations
-The foundation of this project is a robust custom database (`RheinTradeSolutions.sql`) consisting of 17 interrelated tables and **13 advanced automated triggers** acting as an event-driven state machine.
+The foundation of this project is a robust custom database (`RheinTradeSolutions.sql`) consisting of 19 interrelated tables and **14 advanced automated triggers** acting as an event-driven state machine.
 
 **Core Engineering Highlights:**
 * **Temporal Data & SCD (Slowly Changing Dimensions) Logic:** Utilizes history tables (`ProductPriceHistory`, `CustomerSegmentHistory`, `OrderStatusHistory`) to preserve historical accuracy. This ensures financial reports reflect the exact pricing and discount segments active at the time of purchase, preventing data mutation errors.
 * **Event-Driven Financials & Logistics (Trigger Architecture):** * `TRG_OrderDetails_FetchPrice`: Dynamically fetches the correct historical unit price upon insertion and automatically resolves compounded discount rates by evaluating concurrent `Promotions` and active `CustomerSegments`.
-  * `TRG_UpdateOrderTotal` & `TRG_Orders_MinShippingCost`: Executes dynamic logistics cost calculations based on product weight (`WeightKg`), destination country, and specific shipper rate tables, automatically updating the final order total.
+  * `TRG_UpdateOrderTotal` & `TRG_Orders_MinShippingCost`: Execute dynamic logistics cost calculations based on product weight (`WeightKg`), destination country, and specific shipper rate tables, automatically updating the final order total.
   * `TRG_Returns_FinalLogic`: Automates the reverse-logistics pipeline by returning items to inventory, calculating precise refund amounts based on historical purchase prices, and smartly routing the main order status to either 'Returned' or 'Partially Returned'.
-* **Automated Inventory Lifecycle:** `TRG_Orders_StockMovementManager` and `TRG_OrderDetails_UpdateReservation` strictly manage physical stock levels, seamlessly transitioning units between `UnitsInStock` and `UnitsOnOrder` (reserved) based on real-time order states.
-* **Strict State Machine Integrity:** Enforced via Foreign Keys, Check Constraints, and transition triggers (`TRG_Orders_StatusTransitionRules`) to prohibit illogical business flows (e.g., reverting a 'Delivered' order back to 'Pending', or accepting a product return before its official delivery date).
-* **Automated Data Governance & Quality Auditing:** Implements comprehensive Stored Procedures (e.g., `SP_Audit_Full_System_Quality`) as an active monitoring layer. This system continuously scans for and logs business anomalies into a dedicated `DataQualityIssues` table—detecting complex issues like fuzzy-duplicate B2B customers, negative inventory states, and logical timeline errors (e.g., items delivered before being ordered).
+* **Automated Inventory Lifecycle:** `TRG_Orders_StockMovementManager` and `TRG_OrderDetails_UpdateReservation` manage physical stock levels, automatically transitioning units between `UnitsInStock` and `UnitsOnOrder` (reserved) based on real-time order states.
+* **Strict State Machine Integrity:** Enforced via Foreign Keys, Check Constraints, and transition triggers (`TRG_Orders_StatusTransitionRules`) to prohibit illogical business flows (e.g., reverting a 'Delivered' order back to 'Pending').
+* **Automated Data Governance & Quality Auditing:** Implements comprehensive Stored Procedures (e.g., `SP_Audit_Full_System_Quality`) as an active monitoring layer. This system continuously scans for and logs business anomalies into a dedicated `DataQualityIssues`  table, such as fuzzy-duplicate B2B customers, negative inventory states, logical timeline errors (e.g., items delivered before being ordered), and returns recorded before their associated order was ever delivered.
 
 ## 🏗️ Database Architecture & Design
 ![ERP Database Schema](images/ERP_Database_Schema.png)
