@@ -36,10 +36,10 @@ The foundation of this project is a robust custom database (`RheinTradeSolutions
 ### 📊 Executive Summary: Main Category Profitability
 | Main Category | Net Units Sold | True Net Revenue | True Net Profit | Profit Margin |
 | :--- | :--- | :--- | :--- | :--- |
-| **Security & Surveillance** | 30,215 | 5.006.145 € | 1.995.958 € | **39.87%** |
-| **Control & Infrastructure** | 26,024 | 3.258.597 € | 1.274.738 € | **39.12%** |
-| **Energy & Climate** | 15,605 | 1.464.772 € | 585.907 € | **40.00%** |
-| **Smart Lighting** | 14,059 | 669.221 € | 327.257 € | **48.90%** |
+| **Security & Surveillance** | 30,215 | €5,006,145 | €1,995,958 | **39.87%** |
+| **Control & Infrastructure** | 26,024 | €3,258,597 | €1,274,738 | **39.12%** |
+| **Energy & Climate** | 15,605 | €1,464,772 | €585,907 | **40.00%** |
+| **Smart Lighting** | 14,059 | €669,221 | €327,257 | **48.90%** |
 
 * 📁 [View SQL Query](scripts/Analysis_1_Net_Profit_Distribution.sql) | 🧠 [Read Deep-Dive Methodology](docs/Comprehensive_Analysis.md#analysis-1)
 
@@ -52,9 +52,9 @@ The foundation of this project is a robust custom database (`RheinTradeSolutions
 ### 📈 Growth Summary: 2024 vs. 2025 (Top Performers)
 | Main Category | 2024 Revenue | 2025 Revenue | YoY Growth |
 | :--- | :--- | :--- | :--- |
-| **Smart Lighting** | 120.320 € | 427.166 € | **+255.02%** 🚀 |
-| **Security & Surveillance**| 728.514 € | 2.354.071 € | **+223.13%** 🚀 |
-| **Control & Infrastructure**| 530.302 € | 1.248.028 € | **+135.34%** |
+| **Smart Lighting** | €120,320 | €427,166 | **+255.02%** 🚀 |
+| **Security & Surveillance**| €728,514 | €2,354,071 | **+223.13%** 🚀 |
+| **Control & Infrastructure**| €530,302 | €1,248,028 | **+135.34%** |
 
 * 📁 [View SQL Query](scripts/Analysis_2_Revenue_Growth_Trends.sql) | 🧠 [Read Deep-Dive Methodology](docs/Comprehensive_Analysis.md#analysis-2)
 
@@ -67,13 +67,13 @@ The foundation of this project is a robust custom database (`RheinTradeSolutions
 
 | Company Name | Region | Tenure (Days) | Total Orders | Current Segment | Lifetime Value |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Chicago Smart Office Inc.** | North America | 2,009 | 23 | B2B - Strategic Partner | **440.891 €** |
-| **Berlin Smart Hotel Group** | Europe | 2,252 | 20 | B2B - Strategic Partner | **368.572 €** |
-| **NYC Secure Living** | North America | 1,850 | 18 | B2B - Strategic Partner | **348.051 €** |
-| **Boston Smart Campus** | North America | 893 | 8 | *No Segment* ⚠️ | **317.163 €** |
-| **Toronto Condo Security** | North America | 949 | 13 | B2B - Corporate | **312.884 €** |
-| **Stuttgart Auto-Smart** | Europe | 1,865 | 15 | B2B - Corporate | **310.488 €** |
-| **Vancouver Smart Access Ltd**| North America | 639 | 4 | *No Segment* ⚠️ | **278.543 €** |
+| **Chicago Smart Office Inc.** | North America | 2,009 | 23 | B2B - Strategic Partner | **€440,891** |
+| **Berlin Smart Hotel Group** | Europe | 2,252 | 20 | B2B - Strategic Partner | **€368,572** |
+| **NYC Secure Living** | North America | 1,850 | 18 | B2B - Strategic Partner | **€348,051** |
+| **Boston Smart Campus** | North America | 893 | 8 | *No Segment* ⚠️ | **€317,163** |
+| **Toronto Condo Security** | North America | 949 | 13 | B2B - Corporate | **€312,884** |
+| **Stuttgart Auto-Smart** | Europe | 1,865 | 15 | B2B - Corporate | **€310,488** |
+| **Vancouver Smart Access Ltd**| North America | 639 | 4 | *No Segment* ⚠️ | **€278,543** |
 
 *(Note: "No Segment" accounts in the top tier represent an immediate risk of churn and must be transitioned to Strategic Partners.)*
 
@@ -85,9 +85,9 @@ The foundation of this project is a robust custom database (`RheinTradeSolutions
 ### 🏆 Top 3 Sales Performers (By Annual Profit)
 | Rank | Employee Name | Seniority | Primary Territory | Avg. Annual Profit | Profit Margin |
 | :---: | :--- | :--- | :--- | :--- | :--- |
-| 🥇 | **Daniel Brooks** | Senior | Canada | **224.269 €** | 42.00% |
-| 🥈 | **Laura Neumann** | Junior | Netherlands | **169.851 €** | 40.31% |
-| 🥉 | **Felix Köhler** | Senior | France | **154.853 €** | 42.87% |
+| 🥇 | **Daniel Brooks** | Senior | Canada | **€224,269** | 42.00% |
+| 🥈 | **Laura Neumann** | Junior | Netherlands | **€169,851** | 40.31% |
+| 🥉 | **Felix Köhler** | Senior | France | **€154,853** | 42.87% |
 
 * 📁 [View SQL Query](scripts/Analysis_4_Sales_Rep_Efficiency.sql) | 🧠 [Read Deep-Dive Methodology](docs/Comprehensive_Analysis.md#analysis-4)
 
